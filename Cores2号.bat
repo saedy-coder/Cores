@@ -94,7 +94,7 @@ if '%dd%'=='' goto ddm
 
 set ml=
 set /p ml=请输入ai命令后回车（空为无命令）:
-echo if /i '%%shy%%'=='%rd%' set dns=%dd%^&set dnz=%ml%>>Ｃores2号.bat
+echo if /i '%%shy%%'=='%rd%' set dns=%dd%^&set dnz=%ml%>>Cores2号.bat
 goto _m1
 
 :dnshb
