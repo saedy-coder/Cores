@@ -1,6 +1,6 @@
 @echo off
 
-echo CoresœµÕ≥∆Ù∂Ø÷–£¨«Îµ»¥˝£Æ£Æ£Æ
+echo CoresÁ≥ªÁªüÂêØÂä®‰∏≠ÔºåËØ∑Á≠âÂæÖÔºéÔºéÔºé
 
 @ping -n 3 127.1 >nul 2>nul
 echo                       ........
@@ -25,7 +25,7 @@ echo                       ........
 
 
 @ping -n 7 127.1 >nul 2>nul
-echo º”‘ÿÕÍ±œ
+echo Âä†ËΩΩÂÆåÊØï
 
 @ping -n 3 127.1 >nul 2>nul
 cls
@@ -34,27 +34,27 @@ cls
 if '%1'=='aixx' goto aixx
 color f0
 mode con: cols=62 lines=40
-title Cores÷«ƒ‹÷˙ ÷
+title CoresÊô∫ËÉΩÂä©Êâã
 :mai
-echo %date% %time:~0,2%µ„%time:~3,2%∑÷%time:~6,2%√Î  Cores>%windir%\dh.txt
-echo ƒ˙∫√£¨Œ“ «Cores£¨ƒ˙µƒµÁƒ‘÷«ƒ‹÷˙ ÷£¨«Î ‰»Îhelp≤Èø¥∞Ô÷˙ >>%windir%\dh.txt
+echo %date% %time:~0,2%ÁÇπ%time:~3,2%ÂàÜ%time:~6,2%Áßí  Cores>%windir%\dh.txt
+echo ÊÇ®Â•ΩÔºåÊàëÊòØCoresÔºåÊÇ®ÁöÑÁîµËÑëÊô∫ËÉΩÂä©ÊâãÔºåËØ∑ËæìÂÖ•helpÊü•ÁúãÂ∏ÆÂä© >>%windir%\dh.txt
 echo. >>%windir%\dh.txt
 :_m1
 cls
 type %windir%\dh.txt
-echo ®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T®T
+echo ‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê
 set shy=
 set dns=
 set dnz=
-set /p shy=«Î ‰»Îƒ„µƒª∞∫Ûªÿ≥µ:
+set /p shy=ËØ∑ËæìÂÖ•‰Ω†ÁöÑËØùÂêéÂõûËΩ¶:
 if '%shy%'=='' goto _m1
-echo %date% %time:~0,2%µ„%time:~3,2%∑÷%time:~6,2%√Î  Œ“ >>%windir%\dh.txt
+echo %date% %time:~0,2%ÁÇπ%time:~3,2%ÂàÜ%time:~6,2%Áßí  Êàë >>%windir%\dh.txt
 echo %shy% >>%windir%\dh.txt
 echo. >>%windir%\dh.txt
-set dns=∂‘≤ª∆£¨Œ“√ª√˜∞◊ƒ˙µƒ“‚Àº£¨«Î ‰»Îhelp≤Èø¥∞Ô÷˙
+set dns=ÂØπ‰∏çËµ∑ÔºåÊàëÊ≤°ÊòéÁôΩÊÇ®ÁöÑÊÑèÊÄùÔºåËØ∑ËæìÂÖ•helpÊü•ÁúãÂ∏ÆÂä©
 call :dnshb
 
-echo %date% %time:~0,2%µ„%time:~3,2%∑÷%time:~6,2%√Î  Cores >>%windir%\dh.txt
+echo %date% %time:~0,2%ÁÇπ%time:~3,2%ÂàÜ%time:~6,2%Áßí  Cores >>%windir%\dh.txt
 echo %dns% >>%windir%\dh.txt
 echo. >>%windir%\dh.txt
 if /i '%dnz%'=='' goto fh
@@ -63,42 +63,42 @@ start "" %dnz%
 goto _m1
 
 :help
-echo %date% %time:~0,2%µ„%time:~3,2%∑÷%time:~6,2%√Î  Cores >>%windir%\dh.txt
-echo ∞Ô÷˙£∫ >>%windir%\dh.txt
-echo  ‰»Î£∫ >>%windir%\dh.txt
-echo exit£∫ÕÀ≥ˆ >>%windir%\dh.txt
-echo À¢∆¡£∫«Âø’∆¡ƒª>>%windir%\dh.txt
-echo ai—ßœ∞ª˙£∫¥Úø™ai—ßœ∞ª˙>>%windir%\dh.txt
-echo ®T®T®T®T®T®T®T>>%windir%\dh.txt
-echo √¸¡Ó£∫ >>%windir%\dh.txt
+echo %date% %time:~0,2%ÁÇπ%time:~3,2%ÂàÜ%time:~6,2%Áßí  Cores >>%windir%\dh.txt
+echo Â∏ÆÂä©Ôºö >>%windir%\dh.txt
+echo ËæìÂÖ•Ôºö >>%windir%\dh.txt
+echo exitÔºöÈÄÄÂá∫ >>%windir%\dh.txt
+echo Âà∑Â±èÔºöÊ∏ÖÁ©∫Â±èÂπï>>%windir%\dh.txt
+echo aiÂ≠¶‰π†Êú∫ÔºöÊâìÂºÄaiÂ≠¶‰π†Êú∫>>%windir%\dh.txt
+echo ‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê>>%windir%\dh.txt
+echo ÂëΩ‰ª§Ôºö >>%windir%\dh.txt
 echo %0 [aixx] >>%windir%\dh.txt
-echo [aixx]£∫¥Úø™ai—ßœ∞ª˙ >>%windir%\dh.txt
-echo ®T®T®T®T®T®T®T>>%windir%\dh.txt
-echo Œ“µƒ÷˜»À£∫ >>%windir%\dh.txt
+echo [aixx]ÔºöÊâìÂºÄaiÂ≠¶‰π†Êú∫ >>%windir%\dh.txt
+echo ‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê‚ïê>>%windir%\dh.txt
+echo ÊàëÁöÑ‰∏ª‰∫∫Ôºö >>%windir%\dh.txt
 echo saedycoder >>%windir%\dh.txt
-echo ¡™œµ∑Ω Ω£∫ >>%windir%\dh.txt
-echo saedy-coder£¿qq.com >>%windir%\dh.txt
+echo ËÅîÁ≥ªÊñπÂºèÔºö >>%windir%\dh.txt
+echo saedy-coderÔº†qq.com >>%windir%\dh.txt
 echo. >>%windir%\dh.txt
 goto _m1
 
 :aixx
 :rdm
 set rd=
-set /p rd=«Î ‰»Î»À¿‡µƒ”Ô—‘∫Ûªÿ≥µ:
+set /p rd=ËØ∑ËæìÂÖ•‰∫∫Á±ªÁöÑËØ≠Ë®ÄÂêéÂõûËΩ¶:
 if '%rd%'=='' goto rdm
 
 :ddm
 set dd=
-set /p dd=«Î ‰»Îaiªÿª∞∫Ûªÿ≥µ:
+set /p dd=ËØ∑ËæìÂÖ•aiÂõûËØùÂêéÂõûËΩ¶:
 if '%dd%'=='' goto ddm
 
 set ml=
-set /p ml=«Î ‰»Îai√¸¡Ó∫Ûªÿ≥µ£®ø’Œ™Œﬁ√¸¡Ó£©:
-echo if /i '%%shy%%'=='%rd%' set dns=%dd%^&set dnz=%ml%>>¡ƒÃÏª˙∆˜»À.bat
+set /p ml=ËØ∑ËæìÂÖ•aiÂëΩ‰ª§ÂêéÂõûËΩ¶ÔºàÁ©∫‰∏∫Êó†ÂëΩ‰ª§Ôºâ:
+echo if /i '%%shy%%'=='%rd%' set dns=%dd%^&set dnz=%ml%>>Ôº£ores2Âè∑.bat
 goto _m1
 
 :dnshb
 if /i '%shy%'=='help' goto help
-if /i '%shy%'=='À¢∆¡' goto mai
+if /i '%shy%'=='Âà∑Â±è' goto mai
 if /i '%shy%'=='exit' exit
-if /i '%shy%'=='ai—ßœ∞ª˙' goto aixx
+if /i '%shy%'=='aiÂ≠¶‰π†Êú∫' goto aixx
