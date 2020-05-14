@@ -34,7 +34,7 @@ cls
 if '%1'=='aixx' goto aixx
 color f0
 mode con: cols=62 lines=40
-title Cores智能助手
+title Cores智能助手2.0
 :mai
 echo %date% %time:~0,2%点%time:~3,2%分%time:~6,2%秒  Cores>%windir%\dh.txt
 echo 您好，我是Cores，您的电脑智能助手，请输入help查看帮助 >>%windir%\dh.txt
@@ -69,6 +69,7 @@ echo 输入： >>%windir%\dh.txt
 echo exit：退出 >>%windir%\dh.txt
 echo 刷屏：清空屏幕>>%windir%\dh.txt
 echo ai学习机：打开ai学习机>>%windir%\dh.txt
+echo 搜索：打开浏览器搜索>>%windir%\dh.txt
 echo ═══════>>%windir%\dh.txt
 echo 命令： >>%windir%\dh.txt
 echo %0 [aixx] >>%windir%\dh.txt
@@ -102,3 +103,6 @@ if /i '%shy%'=='help' goto help
 if /i '%shy%'=='刷屏' goto mai
 if /i '%shy%'=='exit' exit
 if /i '%shy%'=='ai学习机' goto aixx
+if /i '%shy%'=='你好' set dns=你好啊，我是您的电脑智能助手——Cores.&set dnz=
+if /i '%shy%'=='搜索' start chrome www.baidu.com
+if /i '%shy%'=='。。。' set dns=。。。&set dnz=
