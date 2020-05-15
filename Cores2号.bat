@@ -67,7 +67,7 @@ echo %date% %time:~0,2%点%time:~3,2%分%time:~6,2%秒  Cores >>%windir%\dh.txt
 echo 帮助： >>%windir%\dh.txt
 echo 输入： >>%windir%\dh.txt
 echo exit：退出 >>%windir%\dh.txt
-echo 刷屏：清空屏幕>>%windir%\dh.txt
+echo 清屏：清空屏幕>>%windir%\dh.txt
 echo ai学习机：打开ai学习机>>%windir%\dh.txt
 echo 搜索：打开浏览器搜索>>%windir%\dh.txt
 echo ═══════>>%windir%\dh.txt
@@ -100,9 +100,8 @@ goto _m1
 
 :dnshb
 if /i '%shy%'=='help' goto help
-if /i '%shy%'=='刷屏' goto mai
+if /i '%shy%'=='清屏' goto mai
 if /i '%shy%'=='exit' exit
 if /i '%shy%'=='ai学习机' goto aixx
 if /i '%shy%'=='你好' set dns=你好啊，我是您的电脑智能助手——Cores.&set dnz=
 if /i '%shy%'=='搜索' start chrome www.baidu.com
-if /i '%shy%'=='。。。' set dns=。。。&set dnz=
