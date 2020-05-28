@@ -82,6 +82,21 @@ echo saedy-coder＠qq.com >>%windir%\dh.txt
 echo. >>%windir%\dh.txt
 goto _m1
 
+:5c
+echo %date% %time:~0,2%点%time:~3,2%分%time:~6,2%秒  Cores >>%windir%\dh.txt
+echo 制作者：saedy-coder >>%windir%\dh.txt
+echo 反馈：saedy-coder@qq.com >>%windir%\dh.txt
+echo ————————————— >>%windir%\dh.txt
+echo 本程序制作于5月11日 星期一 >>%windir%\dh.txt
+echo 更新的最新日期于 星期四 >>%windir%\dh.txt
+echo ————————————— >>%windir%\dh.txt
+echo 作者声明： >>%windir%\dh.txt
+echo saedy-coder版权所有 >>%windir%\dh.txt
+echo 不允许使用第三方工具修改并二次发布此程序 >>%windir%\dh.txt
+echo ————————————————————— >>%windir%\dh.txt
+echo. >>%windir%\dh.txt
+goto _m1
+
 :aixx
 :rdm
 set rd=
@@ -102,6 +117,7 @@ goto _m1
 if /i '%shy%'=='help' goto help
 if /i '%shy%'=='清屏' goto mai
 if /i '%shy%'=='exit' exit
+if /i '%shy%'=='关于' goto 5c
 if /i '%shy%'=='ai学习机' goto aixx
 if /i '%shy%'=='你好' set dns=你好啊，我是您的电脑智能助手——Cores.&set dnz=
 if /i '%shy%'=='搜索' start chrome www.baidu.com
