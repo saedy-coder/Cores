@@ -2,32 +2,32 @@
 
 echo Cores系统启动中，请等待．．．
 
-@ping -n 3 127.1 >nul 2>nul
+@ping -n 2 127.1 >nul 2>nul
 echo                       ........
 
-@ping -n 3 127.1 >nul 2>nul
+@ping -n 2 127.1 >nul 2>nul
 echo                      ..........
 
-@ping -n 3 127.1 >nul 2>nul
+@ping -n 2 127.1 >nul 2>nul
 echo                     ............
 
-@ping -n 3 127.1 >nul 2>nul
+@ping -n 2 127.1 >nul 2>nul
 echo                    ..............
 
-@ping -n 3 127.1 >nul 2>nul
+@ping -n 2 127.1 >nul 2>nul
 echo                     ............
 
-@ping -n 3 127.1 >nul 2>nul
+@ping -n 2 127.1 >nul 2>nul
 echo                      ..........
 
 @ping -n 3 127.1 >nul 2>nul
 echo                       ........
 
 
-@ping -n 7 127.1 >nul 2>nul
+@ping -n 4 127.1 >nul 2>nul
 echo 加载完毕
 
-@ping -n 3 127.1 >nul 2>nul
+@ping -n 2 127.1 >nul 2>nul
 cls
 
 @ping -n 3 127.1 >nul 2>nul
@@ -67,6 +67,7 @@ echo %date% %time:~0,2%点%time:~3,2%分%time:~6,2%秒  Cores >>%windir%\dh.txt
 echo 帮助： >>%windir%\dh.txt
 echo 输入： >>%windir%\dh.txt
 echo exit：退出 >>%windir%\dh.txt
+echo 关于：关于本程序 >>%windir%\dh.txt
 echo 清屏：清空屏幕>>%windir%\dh.txt
 echo ai学习机：打开ai学习机>>%windir%\dh.txt
 echo 搜索：打开浏览器搜索>>%windir%\dh.txt
